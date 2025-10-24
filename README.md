@@ -1,12 +1,14 @@
 ## TCP Port Migration using FirewallD (DNAT) Example
 
-This recipe assumes the following configuration on your OEL 8 server:
+This description assumes the following configuration on your OEL 8 server:
 
   * **External Network Interface (VNIC) :** `enp1s0`
   * **Destination Server IP (Port 2225):** `192.168.1.10`
 
 
 -----
+
+You may find a complete [bash script](files/create.bash) script that creates the port forwarding
 
 ### 1\. Enable IP Forwarding Permanently
 
